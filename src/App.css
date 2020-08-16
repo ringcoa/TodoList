@@ -1,38 +1,24 @@
-.App {
-  text-align: center;
-}
+* {margin: 0; padding: 0; color: #333; font-size: 1em;font-family: 'Nanum Gothic', sans-serif; font-weight: inherit; text-decoration: inherit; border: 0 solid transparent; outline: 0; box-sizing: border-box; background-repeat: no-repeat; background-color: transparent;}
+li {list-style: none;}
+a {text-decoration: none;}
+html {height: calc(100% - 80px);}
+body ,#root {height: 100%;}
+#wrap {width: 450px; height: 100%; background-color: #e0e0e0; margin: 40px auto;}
+h1 {font-size: 30px; padding: 10px 0 10px 10px; background-color: #88c940; color: #fff; font-weight: bold;}
+form {position: relative;}
+.input_todo {border: 1px solid #333; width: 410px; height: 40px; vertical-align: middle; padding-left: 10px; background-color: #fff; border: 2px solid #88c940;}
+form .fa-times-circle {position: absolute; font-size: 20px; top: 12px; right: 48px; color: #e0e0e0; cursor: pointer;}
+form .fa-times-circle:hover {color: #4dabf7;}
+form .list_add {width: 40px; height: 40px; background-color: #88c940; font-size: 20px; cursor: pointer; vertical-align: middle; color: #fff;}
+.list { }
+.list .list_item {width: 100%; height: 50px; line-height: 50px; background-color: #f6f6f6; padding : 0 15px; }
+.list .list_item:nth-child(even) {background-color: #E3F7CD;}
+.list .list_item .list_left {float: left; width: 330px;}
+.list .list_item .list_left input {margin-right: 15px;}
+.list .list_item .list_left input:checked~span {color: #a0a0a0; text-decoration: line-through;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.list .list_item .list_right {float: right;}
+.list .list_item .list_right .fa-pen {padding : 10px; cursor: pointer;  color: #b6b6b6;}
+.list .list_item .list_right .fa-pen:hover {color : #4dabf7}
+.list .list_item .list_right .fa-trash-alt {padding : 10px; cursor: pointer; color: #b6b6b6;}
+.list .list_item .list_right .fa-trash-alt:hover {color: #565656}

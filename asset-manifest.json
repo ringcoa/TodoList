@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.81e92114.chunk.css",
-    "main.js": "/static/js/main.ba27c9ae.chunk.js",
-    "main.js.map": "/static/js/main.ba27c9ae.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
-    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
-    "static/js/2.601c4d52.chunk.js": "/static/js/2.601c4d52.chunk.js",
-    "static/js/2.601c4d52.chunk.js.map": "/static/js/2.601c4d52.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.2b0f614742b1170ca1b154ffe1621819.js": "/precache-manifest.2b0f614742b1170ca1b154ffe1621819.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.81e92114.chunk.css.map": "/static/css/main.81e92114.chunk.css.map",
-    "static/js/2.601c4d52.chunk.js.LICENSE.txt": "/static/js/2.601c4d52.chunk.js.LICENSE.txt"
+    "main.css": "/TodoList/static/css/main.81e92114.chunk.css",
+    "main.js": "/TodoList/static/js/main.db082b29.chunk.js",
+    "main.js.map": "/TodoList/static/js/main.db082b29.chunk.js.map",
+    "runtime-main.js": "/TodoList/static/js/runtime-main.c8474f3e.js",
+    "runtime-main.js.map": "/TodoList/static/js/runtime-main.c8474f3e.js.map",
+    "static/js/2.601c4d52.chunk.js": "/TodoList/static/js/2.601c4d52.chunk.js",
+    "static/js/2.601c4d52.chunk.js.map": "/TodoList/static/js/2.601c4d52.chunk.js.map",
+    "index.html": "/TodoList/index.html",
+    "precache-manifest.992d9841c0fb8777b85d8be2e647ea9d.js": "/TodoList/precache-manifest.992d9841c0fb8777b85d8be2e647ea9d.js",
+    "service-worker.js": "/TodoList/service-worker.js",
+    "static/css/main.81e92114.chunk.css.map": "/TodoList/static/css/main.81e92114.chunk.css.map",
+    "static/js/2.601c4d52.chunk.js.LICENSE.txt": "/TodoList/static/js/2.601c4d52.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/runtime-main.c8474f3e.js",
     "static/js/2.601c4d52.chunk.js",
     "static/css/main.81e92114.chunk.css",
-    "static/js/main.ba27c9ae.chunk.js"
+    "static/js/main.db082b29.chunk.js"
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ringcoa/TodoList/static/css/main.81e92114.chunk.css",
+    "main.js": "/ringcoa/TodoList/static/js/main.024f8525.chunk.js",
+    "main.js.map": "/ringcoa/TodoList/static/js/main.024f8525.chunk.js.map",
+    "runtime-main.js": "/ringcoa/TodoList/static/js/runtime-main.7ec44099.js",
+    "runtime-main.js.map": "/ringcoa/TodoList/static/js/runtime-main.7ec44099.js.map",
+    "static/js/2.601c4d52.chunk.js": "/ringcoa/TodoList/static/js/2.601c4d52.chunk.js",
+    "static/js/2.601c4d52.chunk.js.map": "/ringcoa/TodoList/static/js/2.601c4d52.chunk.js.map",
+    "index.html": "/ringcoa/TodoList/index.html",
+    "precache-manifest.4b4db54aab5a9811cc91162eaa5fa0c9.js": "/ringcoa/TodoList/precache-manifest.4b4db54aab5a9811cc91162eaa5fa0c9.js",
+    "service-worker.js": "/ringcoa/TodoList/service-worker.js",
+    "static/css/main.81e92114.chunk.css.map": "/ringcoa/TodoList/static/css/main.81e92114.chunk.css.map",
+    "static/js/2.601c4d52.chunk.js.LICENSE.txt": "/ringcoa/TodoList/static/js/2.601c4d52.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ec44099.js",
+    "static/js/2.601c4d52.chunk.js",
+    "static/css/main.81e92114.chunk.css",
+    "static/js/main.024f8525.chunk.js"
+  ]
+}

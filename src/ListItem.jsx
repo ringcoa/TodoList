@@ -7,7 +7,7 @@ const ListItem = ({todos , delet ,cheked ,edit}) => {
         if(done) return
         edit(id ,text)
     }, [todos])
-    return (
+    return useMemo(()=>(
         <li className="list_item">
             <div className="list_left">
                 <input type="checkbox" checked={done} onChange={()=> cheked(id, text , done)}/>
@@ -18,7 +18,7 @@ const ListItem = ({todos , delet ,cheked ,edit}) => {
                 <i className="far fa-trash-alt" onClick={() => delet(id)}></i>
             </div>
         </li>
-    )
+    ),[todos  , delet])
 }
 
 export default ListItem

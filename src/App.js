@@ -1,7 +1,19 @@
-import React , {useState, useCallback ,useRef} from 'react';
+import React , {useState, useCallback ,useRef ,useMemo} from 'react';
 import './App.css';
 import List from './List.jsx'
+// const test = ()=>{
+//   const arr = [];
+//   for(let i =1; i<=2500; i++){
+//     arr.push({
+//       id : i,
+//       text : `할일 ${i}`,
+//       done : false
+//     })
+//   }
+//   return arr
+// }
 function App() {
+  //const [todos , setTodos] = useState(test)
   const [todos , setTodos] = useState([
     {
       id : 1,
@@ -61,9 +73,7 @@ function App() {
   },[todos])
 
   const cheked = useCallback((id , text , done) =>{
-    console.log('체크토글')
-    done = !done
-    //onsole.log(id , text , done)
+    done = !done;
     setTodos(todos.map(todo => todo.id === id ? {...todo , done : !todo.done} : todo))
   },[todos])
 
@@ -93,7 +103,7 @@ function App() {
     setValue('')
   }
 
-  return (
+  return useMemo(()=>(
     <>
       <div id="wrap">
         <h1>TODO LIST</h1>
@@ -106,7 +116,7 @@ function App() {
         <List todos ={todos} delet={delet} cheked={cheked} edit={edit}/>
       </div>
     </>
-  );
+  ),[value , todos])
 }
 
 export default App;
